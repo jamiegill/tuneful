@@ -73,8 +73,8 @@
             {{#each songs}}
             <li>
                 <a href="#" class="song" data-id="{{ id }}"
-                   data-path="{{ file.path }}">
-                    {{ file.name }}
+                   data-path="/uploads/{{ file.filename }}">
+                    {{ file.filename }}
                 </a>
             </li>
             {{/each}}
